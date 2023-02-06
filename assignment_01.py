@@ -23,8 +23,8 @@ print('That is a great average!')
 
 #Q2
 #The area of a rectangle is the rectangle’s length times its width. Write a program that asks for the length and width of two rectangles and prints to the user the area of both rectangles. 
-length_1 = int(input('Enter the length for rectangle 1: '))
-width_1 = int(input('Enter the width for rectangle 1: '))
+length_1 = float(input('Enter the length for rectangle 1: '))
+width_1 = float(input('Enter the width for rectangle 1: '))
 
 print("The area of rectangle 1 is: " + str(length_1*width_1))
 
@@ -41,5 +41,5 @@ print("The area of rectangle 1 is: " + str(length_2*width_2))
 # "Happy birthday, name!  You are age years old today!"
 
 name = input('Please enter your first name: ')
-age = int(input('Please enter your age: '))
+age = float(input('Please enter your age: '))
 print('Happy birthday ' + name + '! You are ' + str(age) + ' years old today!')

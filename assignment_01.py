@@ -7,9 +7,9 @@
 HIGH_SCORE = 95
  
 # Get the test scores.
-test1 = int(input('Enter the score for test 1: '))
-test2 = int(input('Enter the score for test 2: '))
-test3 = int(input('Enter the score for test 3: '))
+test1 = float(input('Enter the score for test 1: '))
+test2 = float(input('Enter the score for test 2: '))
+test3 = float(input('Enter the score for test 3: '))
 # Calculate the average test score.
 average = (test1 + test2 + test3) / 3
 # Print the average.
@@ -28,8 +28,8 @@ width_1 = float(input('Enter the width for rectangle 1: '))
 
 print("The area of rectangle 1 is: " + str(length_1*width_1))
 
-length_2 = int(input('Enter the length for rectangle 2: '))
-width_2 = int(input('Enter the width for rectangle 2: '))
+length_2 = float(input('Enter the length for rectangle 2: '))
+width_2 = float(input('Enter the width for rectangle 2: '))
 
 print("The area of rectangle 1 is: " + str(length_2*width_2))
 
